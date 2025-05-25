@@ -21,4 +21,4 @@ gpg --symmetric --cipher-algo CIPHER message.txt
 gpg --armor --symmetric --cipher-algo CIPHER message.txt
 
 #Command to show GPG symmetric encryption version
---gpg version
+gpg --version
