@@ -16,5 +16,5 @@ OR
 #Command to decrypt a file using OPENSSL symmetric decryption algorithm
 openssl aes-256-cbc -d -in encrypted_message -out original_message.txt
 
-#Command to decrypt a file using OPENSSL symmetric decryption algorithm with password based key derivative function and iteration
+#Command to decrypt a file using OPENSSL symmetric decryption algorithm with password based key derivative function 2 and iteration
 openssl aes-256-cbc -pbkdf2 -iter1000 -d -in encrypted_message -out original_message.txt
